@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>P.1 Latihan 11</title>
+    </head>
+    <body>
+        <h3>My first Google Map</h3>
+
+        <div id="map" style="width:400px;height:400px;background:yellow"></div>
+
+        <script>
+            function myMap(){
+                var mapOption = {
+                    center: new google.maps.LatLng(51.5, -0.12),
+                    zoom: 10,
+                    mapTypeId: google.maps.MapTypeId.HYBRID
+                }
+                var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+            }
+        </script>
+        <script src="https://www.google.co.id/maps/@-7.0730323,110.4093638,14.9z?hl=en"
+        ></script>
+    </body>
+</html>

@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>P.4 - Latihan 8</title>
+    </head>
+    <body>
+        <h1 id="demo"></h1>
+        <p>
+            <script language="JavaScript">
+            document.writeln("<pre>");
+            document.writeln("<h1>Struktur Kontrol Percabangan Switch</h1>");
+            var day;
+            switch (new Date().getDay()){
+                case 0:day = "Saturday";
+                break;
+
+                case 1:day = "Monday";
+                break;
+
+                case 2:day = "Tuesday";
+                break;
+
+                case 3:day = "wednesday";
+                break;
+
+                case 4:day = "Thursday";
+                break;
+
+                case 5:day = "Friday";
+                break;
+
+                case 6:day = "Saturday";
+                break;
+            }
+            document.getElementById("demo").innerHTML = "Today is " + day;
+
+            document.writeln("</pre>");
+
+            </script>
+        </p>
+    </body>
+</html>
